@@ -6,6 +6,8 @@ The Streamlit app allows you to switch between two Text Classification models, B
 
 Via Google Forms, you can gather feedback on the models' performance for detecting sentiments in text (e.g., for testing the models on challenging, sarcastic prompts if you wish). 
 
+For analyzing experimental design results from a CSV, check out [this great app from the Streamlit team](https://github.com/streamlit/example-app-ab-testing).
+
 ## How to make it your own!
 
 1. Clone the code here and pip install the requirements (`pip install -r requirements.txt`)
