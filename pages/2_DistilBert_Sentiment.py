@@ -15,7 +15,7 @@ text_input = st.text_input(
         "Enter some text for the model to classify as Positive, Negative, or Neutral 👇",
         placeholder=placeholder_text)
 
-if text_input is "":
+if text_input == "":
     text_input = placeholder_text
 
 st.write(f"Predicted ➡️ {pipe(text_input)[0]['label']}")

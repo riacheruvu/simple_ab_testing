@@ -15,7 +15,7 @@ text_input = st.text_input(
 
 candidate_labels=["Negative Sentiment", "Positive Sentiment", "Neutral Sentiment"]
 
-if text_input is "":
+if text_input == "":
     text_input = placeholder_text
 
 
